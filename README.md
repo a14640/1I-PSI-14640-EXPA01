@@ -1,31 +1,11 @@
 # 1I-PSI-14640-EXPA01
 
-Aqui esta o codigo do jogo
+<h3> Introdução </h3>
+Guess the number é um jogo que consiste em adivinhar o numero secreto de 0 a 20. 
 
-import random
-print("----------------GUESS THE NUMBER----------------")
-tentativas = int(6)
-nome = input("Insira o seu Nick: ")
-SecretN = random.randint(0,20)
+<h3> Jogo </h3>
+O usuario tem que esolher um numero de 0 a 20 para tentar adivinhar o numero secreto aleatoriamente criado.
+O usuario tem 6 tentativas para adivinhar o numero secreto se o numero inserido pelo o usuario for menor que o sorteado aparece Numero Inferior se o numero sorteado for maior que o sorteado aparece Numero Superior ate acabarem as tentativas ou acertares o numero.
 
-while tentativas > 0:
-  numero = int(input("Insira um valor: "))
-  if numero == SecretN:
-    print("---Acertaste---")
-    exit()
-  elif numero < SecretN:
-    print("---Número inferior---")
-    tentativas -= 1
-    print(f"Restam {tentativas} tentativas.")
-  elif numero > SecretN:
-    print("---Número superior---")
-    tentativas -= 1
-    print(f"Restam {tentativas} tentativas.")
-
-print(f"As tentativas acabaram e o número correto é {SecretN} .")
-
-O jogo consiste em adivinhar o numero secreto de 0 a 20. Tens 6 tentativas para acertar se o numero que inserires for menor que o numero secreto então aparece 	NUMERO INFERIOR.
-
-
-
-
+<h3> Conclusão </h3>
+O usuario tem 6 tentativas para adivinhar um numero de 0 a 20.
