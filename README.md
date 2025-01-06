@@ -1,4 +1,4 @@
-<h3> # 1I-PSI-14640-EXPA01</h3>    
+# 1I-PSI-14640-EXPA01
 
 Aqui esta o codigo do jogo
 
@@ -23,6 +23,8 @@ while tentativas > 0:
     print(f"Restam {tentativas} tentativas.")
 
 print(f"As tentativas acabaram e o número correto é {SecretN} .")
+
+O jogo consiste em adivinhar o numero secreto de 0 a 20. Tens 6 tentativas para acertar se o numero que inserires for menor que o numero secreto então aparece 	NUMERO INFERIOR.
 
 
 
